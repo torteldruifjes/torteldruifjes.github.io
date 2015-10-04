@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-image: url(/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  padding: 1em;
+}
+
+.v-center-holder {
+  text-align: center;
+  height: 100%;
+}
+.v-center-holder:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+.v-center-content {
+  display: inline-block;
+  max-width: 98%;
+  position: relative;
+  top: 4em;
+}
+.container {
+  height: 100%;
+}
+.container h1 img {
+  width: 12em;
+  max-width: 80%;
+  display: inline-block;
+}
+.container .social-links a {
+  color: white;
+  display: inline-block;
+  padding: 0.6em;
+  font-size: 1.4em;
+}
+.container .social-links a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
